@@ -8,3 +8,5 @@ https://plus.google.com/u/0/b/104017139996657183972/104017139996657183972/posts/
 
 Part 2. What to test when testing Javascript
 https://plus.google.com/u/0/b/104017139996657183972/104017139996657183972/posts/JUkUrozi4wE
+
+Uses Jasmine available at https://github.com/pivotal/jasmine/wiki
