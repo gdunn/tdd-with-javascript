@@ -3,13 +3,25 @@
     <head>
         <title>Test Driven Development with Javascript</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <script type="text/javascript" src="greeter.js"></script>
     </head>
     <body>
         <h1>This page will contain some elements we can hook Javascript onto</h1>
         <div id="namecheck">
             <form>
-                <label for="name">Name: </label><input type="text" name="name" id="name" />
+                <label for="name">Name: </label><input type="text" name="name" id="name" /><br/>
+                <input type="button" id="greeterButton" value="Greeter!">
             </form>
         </div>
+        <script type="text/javascript">
+            (function() {
+                var greeterButton = document.getElementById("greeterButton");
+                greeterButton.addEventListener('click', function(event) {
+                    var nameElement = document.getElementById("name");
+                    greeter(nameElement, alert);
+                });
+            })();
+        </script>
     </body>
 </html>
