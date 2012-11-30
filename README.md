@@ -1,4 +1,4 @@
-Tdd With Javascript
+TDD with Javascript
 ===================
 
 Examples and on how you can do TDD with Javascript. Part of a mini blog series.
